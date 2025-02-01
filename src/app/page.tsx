@@ -44,7 +44,7 @@ export default function Home() {
         </section>
         {/* Test component here */}
         <FullscreenStackingCards cards={cardsData} />
-        {/*  <StackingCards cards={cardsData} /> */}
+        <StackingCards cards={cardsData} />
         {/* Test componet above */}
         <section className='outro'>
           {' '}
