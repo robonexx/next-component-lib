@@ -3,12 +3,36 @@ import StackingCards from '@/components/StackingCards';
 import FullscreenStackingCards from '@/components/FullscreenStackingCards';
 
 const cardsData = [
-  { title: 'Patel X-1Z', img: '/image1.jpg' },
-  { title: 'ShaQuona 111-A', img: '/image2.jpg' },
-  { title: 'Raphael 33-UI', img: '/image3.jpg' },
-  { title: 'Ai-gnes 001', img: '/image4.jpg' },
-  { title: 'Bob UX-22', img: '/image5.jpg' },
-  { title: 'Chang NGX-99', img: '/image6.jpg' },
+  {
+    title: 'Patel X-1Z',
+    img: '/image1.jpg',
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!',
+  },
+  {
+    title: 'ShaQuona 111-A',
+    img: '/image2.jpg',
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!',
+  },
+  {
+    title: 'Raphael 33-UI',
+    img: '/image3.jpg',
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!',
+  },
+  {
+    title: 'Ai-gnes 001',
+    img: '/image4.jpg',
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!',
+  },
+  {
+    title: 'Bob UX-22',
+    img: '/image5.jpg',
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!',
+  },
+  {
+    title: 'Chang NGX-99',
+    img: '/image6.jpg',
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!',
+  },
 ];
 
 export default function Home() {

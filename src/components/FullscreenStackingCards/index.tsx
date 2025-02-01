@@ -9,6 +9,7 @@ gsap.registerPlugin(ScrollTrigger);
 export type CardData = {
   title: string;
   img: string;
+  desc: string;
 };
 
 type StackingCardsProps = {
@@ -93,25 +94,26 @@ export default function FullscreenStackingCards({ cards }: StackingCardsProps) {
   }, [cards]);
 
   return (
-    <section className='cards' ref={containerRef}>
-      <div className='cards-bg'>
+    <section className='fc-cards' ref={containerRef}>
+      <div className='fc-cards-bg'>
         <h2>We are here to help you!</h2>
         <p>A tech team of extraordinary characters</p>
       </div>
 
       {cards.map((card, i) => (
         <div
-          className='card'
+          className='fc-card'
           key={i}
           ref={(el) => {
             if (el) cardsRef.current[i] = el;
           }}
         >
-          <div className='card-img'>
+          <div className='fc-card-img'>
             <img src={card.img} alt={card.title} />
           </div>
-          <div className='card-content'>
-            <p>{card.title}</p>
+          <div className='fc-card-content'>
+            <h2>{card.title}</h2>
+            <p>{card.desc}</p>
           </div>
         </div>
       ))}

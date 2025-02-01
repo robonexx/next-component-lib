@@ -9,6 +9,7 @@ gsap.registerPlugin(ScrollTrigger);
 export type CardData = {
   title: string;
   img: string;
+  desc: string;
 };
 
 type StackingCardsProps = {
