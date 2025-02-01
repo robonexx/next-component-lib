@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import StackingCards from '@/components/StackingCards';
+import FullscreenStackingCards from '@/components/FullscreenStackingCards';
 
 const cardsData = [
   { title: 'Patel X-1Z', img: '/image1.jpg' },
@@ -18,7 +19,8 @@ export default function Home() {
           <h1>HERO</h1>
         </section>
         {/* Test component here */}
-        <StackingCards cards={cardsData} />
+        <FullscreenStackingCards cards={cardsData} />
+        {/*  <StackingCards cards={cardsData} /> */}
         {/* Test componet above */}
         <section className='outro'>
           {' '}
